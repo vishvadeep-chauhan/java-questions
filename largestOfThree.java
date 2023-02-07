@@ -10,11 +10,11 @@ public class largestOfThree {
         int y=s.nextInt();
         int z=s.nextInt();
 
-        if (x > y && x> z){
+        if (x >= y && x>= z){
             System.out.println("x is the largest number");
         }
 
-        else if ( y>x && y>z ){
+        else if ( y>=x && y>=z ){
 
             System.out.println("y is the largest number");
         }
